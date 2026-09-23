@@ -11,10 +11,7 @@ nahodna_znamka = random.randint(1,5)
 print(nahodna_znamka)
 zak = input("čí to bude známka?")
 
-# zaci = {
-#     "radek": 5,
 
-# }
 def zapsat_1(pridat):
     if pridat == "ano":
         # zaci.update({zak.append(nahodna_znamka)})
