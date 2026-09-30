@@ -1,10 +1,10 @@
 import random
 import json
 import tkinter
+
 with open("H:\programovani25\PRG_4.G\liny_ucitel\zaci.json", "r", encoding="utf-8") as f:
     zaci = json.load(f)
     print(f"Loadnuto: {zaci}")
-
 
 
 nahodna_znamka = random.randint(1,5)
